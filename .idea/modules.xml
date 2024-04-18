@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PythonProject.iml" filepath="$PROJECT_DIR$/PythonProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smartbets.iml" filepath="$PROJECT_DIR$/smartbets.iml" />
     </modules>
   </component>
 </project>
