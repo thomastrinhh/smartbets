@@ -21,8 +21,10 @@ def getOdds(url, live_score, index):
     soup = BeautifulSoup(response.text, "html.parser")
 
     # Find the <span> elements containing the betting odds
-    betting_odds_1 = soup.select_one("#wrapper > div.col-container > div.col.mod-3 > div:nth-child(2) > a > div:nth-child(1) > div:nth-child(2) > span.match-bet-item-odds.mod-down.mod-1")
-    betting_odds_2 = soup.select_one("#wrapper > div.col-container > div.col.mod-3 > div:nth-child(2) > a > div:nth-child(3) > div:nth-child(1) > span.match-bet-item-odds.mod-up.mod-2")
+    betting_odds_1 = soup.select_one("#wrapper > div.col-container > div.col.mod-3 > div:nth-child(2) > a > "
+                                     "div:nth-child(1) > div:nth-child(2) > span.match-bet-item-odds.mod-down.mod-1")
+    betting_odds_2 = soup.select_one("#wrapper > div.col-container > div.col.mod-3 > div:nth-child(2) > a >"
+                                     " div:nth-child(3) > div:nth-child(1) > span.match-bet-item-odds.mod-up.mod-2")
 
     # Extract the odds value if available
     odds_1 = betting_odds_1.text.strip() if betting_odds_1 else "N/A"
