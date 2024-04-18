@@ -1,6 +1,6 @@
 # Author: Thomas Trinh
 # File: backup.py
-# Purpose: Initial implementation of driver.py.
+# Purpose: Initial implementation of analytics.py.
 
 import requests
 from bs4 import BeautifulSoup
