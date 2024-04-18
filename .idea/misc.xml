@@ -4,6 +4,6 @@
     <option name="sdkName" value="Python 3.11 (PythonProject)" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21">
-    <output url="file://$PROJECT_DIR$/out" />
+    <output url="file://$PROJECT_DIR$/../smartbets/out" />
   </component>
 </project>
