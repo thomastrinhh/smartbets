@@ -22,11 +22,12 @@ To use this script, follow these steps:
 
 The `analytics.py` script retrieves live match scores from the FastAPI server and extracts betting odds from vlr.gg for each match. It then calculates odds ratios for potential betting opportunities.
 
-To run the script:
+To run the script, execute the following commands into your terminal.
 
 ```bash
-1. python main.py
-2. python analytics.py
+python main.py
+python analytics.py
+```
 
 ## Acknowledgments
 
